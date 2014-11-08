@@ -1,2 +1,1 @@
-tha-lab_introduction-to-the-pdf-launch-action
-=============================================
+Hacker Academy Lab Support [http://hackeracademy.com]
