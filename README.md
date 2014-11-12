@@ -12,9 +12,11 @@ This lab requires a Windows host or VM as well as the following THA virtual mach
 * Kali
 
 #### Lab Credentials
-Kali VM: root / toor
+
+* Kali VM: `root / toor`
 
 #### Setup
+
 1. Boot your THA Kali VM and login.
 
 2. Clone this repo on your Kali VM by opening a terminal and issuing the following command:
@@ -28,20 +30,21 @@ Kali VM: root / toor
   ```
   tar xzvf /root/THA/pdf-launch-action/assets/origami-last.tar.gz
   ```
-* Note: This will install origami-pdf and create a directory titled “origami-1.0.0-beta1”.
+    * Note: This will install origami-pdf and create a directory titled “origami-1.0.0-beta1”.
 
-4. Install Adobe Reader 9.3.0 on your Windows System. You can get it from the older versions repository located [here](http://www.oldapps.com/adobe_reader.php?app=825D029BE7FB692DADD92DD8875BDBFB)
+4. Install Adobe Reader 9.3.0 on your Windows System. You can get it from the older versions repository located [here](http://www.oldapps.com/adobe_reader.php?app=825D029BE7FB692DADD92DD8875BDBFB).
 
 #### Useful Resources
-1. Origami-PDF Home Page: http://esec-lab.sogeti.com/dotclear/index.php?pages/Origami
-2. Origami-PDF Cheat Sheet: http://code.google.com/p/origami-pdf/downloads/list
-3. Origami-PDF Google Code Project: http://code.google.com/p/origami-pdf/
-4. Adobe PDF Specifications: http://www.adobe.com/devnet/acrobat/pdfs/PDF32000_2008.pdf
-5. Adobe JavaScript API Documentation: http://www.adobe.com/devnet/acrobat/pdfs/js_api_reference.pdf
-6. OLDApps: oldapps.com can be an extremely useful website for a penetration tester, as they tend to maintain a fairly broad repository for older versions of common applications that you will most likely encounter when performing pen testing. http://www.oldapps.com/
+
+* Origami-PDF Home Page: http://esec-lab.sogeti.com/dotclear/index.php?pages/Origami
+* Origami-PDF Cheat Sheet: http://code.google.com/p/origami-pdf/downloads/list
+* Origami-PDF Google Code Project: http://code.google.com/p/origami-pdf/
+* Adobe PDF Specifications: http://www.adobe.com/devnet/acrobat/pdfs/PDF32000_2008.pdf
+* Adobe JavaScript API Documentation: http://www.adobe.com/devnet/acrobat/pdfs/js_api_reference.pdf
+* OLDApps: oldapps.com can be an extremely useful website for a penetration tester, as they tend to maintain a fairly broad repository for older versions of common applications that you will most likely encounter when performing pen testing. http://www.oldapps.com/
 
 ##### Note
-* If the Kali VM network connection continually disconnects please reboot the VM.
+* If the Kali VM network connection continually disconnects simply reboot the VM.
 
 #### Start the lab
 * Follow the instructions for lab 1 found on your Kali machine at 
