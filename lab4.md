@@ -5,6 +5,7 @@
 2. Make a copy of the “winparams.rb” script and name it “firefox.rb” in this same directory. You can do this using the cp command on Linux:
 
   ```
+  cd /root/THA/pdf-launch-action/assets/origami-1.0.0-beta1/sources/samples/launch
   cp winparams.rb firefox.rb
   ```
 
