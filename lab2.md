@@ -4,7 +4,7 @@
 
 2. Modify the /F Byte string to (notepad.exe) to specify we are going to execute notepad from within the PDF file. To pass parameters we need to add the /P name object parameter followed by a string containing the parameters. Modify the launch.pdf file object number 108 to look like the following excerpt to pass a file name of test.txt to notepad:
 
-  ```
+  ```bash
   <<
   /F (notepad.exe) /P (test.txt)
   >>

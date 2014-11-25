@@ -8,7 +8,7 @@
 
 4. Let us execute the “calc.rb” Origami-PDF script to examine the actual PDF file generated from this script. To execute the script simply run either of the following commands:
 
-  ```
+  ```bash
   cd /root/THA/pdf-launch-action/assets/origami-1.0.0-beta1/sources/samples/launch
   ruby calc.rb
   ```

@@ -4,7 +4,7 @@
 
 2. Make a copy of the “winparams.rb” script and name it “firefox.rb” in this same directory. You can do this using the cp command on Linux:
 
-  ```
+  ```bash
   cd /root/THA/pdf-launch-action/assets/origami-1.0.0-beta1/sources/samples/launch
   cp winparams.rb firefox.rb
   ```
@@ -35,7 +35,7 @@
 
 6. We also want change the functionality of the script to open Firefox and pass the parameter “www.thehackeracademy.com” to it. To do this we need to edit lines 10-13 of the script which currently look like this:
 
-  ```
+  ```bash
   params.F = "C:\\\\WINDOWS\\\\system32\\\\notepad.exe" # application or document to launch
   params.D = "C:\\\\WINDOWS\\\\system32" # new current directory
   params.P = "test.txt" # parameter to pass if F is an application
@@ -43,7 +43,7 @@
 
     Modify the above lines to look like this:
 
-  ```
+  ```bash
   params.F = "firefox" # application or document to launch
   params.P = "www.thehackeracademy.com" # parameter to pass if F is an application
   ```

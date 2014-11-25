@@ -6,7 +6,7 @@
 
 3. Open the PDF file “launch.pdf” in your favorite text editor and locate the object number 108. This is where we define what application is executed within the PDF file. Take note of the syntax for this object:
 
-  ```
+  ```bash
   /Type /Action
   /S /Launch
   /Win
